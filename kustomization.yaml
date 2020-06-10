@@ -1,0 +1,4 @@
+resources:
+        - k8s-pod.yaml
+        - skaffold.yaml
+namePrefix: base-
