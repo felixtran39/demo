@@ -3,10 +3,9 @@ kind: Config
 metadata:
         name: skaffold-file
 build:
+  tagPolicy:
+    gitCommit: {}
   googleCloudBuild:
           projectId: yuwenma-gke-playground
   artifacts:
   - image: gcr.io/yuwenma-gke-playground/img
-deploy:
-        kustomize:
-                paths: ["../overlay"]
