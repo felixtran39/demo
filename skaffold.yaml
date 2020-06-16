@@ -3,8 +3,6 @@ kind: Config
 metadata:
         name: skaffold-file
 build:
-  tagPolicy:
-    gitCommit: {}
   googleCloudBuild:
           projectId: yuwenma-gke-playground
   artifacts:
