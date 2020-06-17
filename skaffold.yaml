@@ -4,6 +4,6 @@ metadata:
         name: skaffold-file
 build:
         googleCloudBuild:
-          projectId: yuwenma-gke-playground  
-  artifacts:
-    - image: gcr.io/yuwenma-gke-playground/img
+                projectId: yuwenma-gke-playground
+         artifacts:
+                - image: gcr.io/yuwenma-gke-playground/img
