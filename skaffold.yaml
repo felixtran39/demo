@@ -3,6 +3,7 @@ kind: Config
 metadata:
         name: skaffold-file
 build:
-        cluster: {gke_yuwenma-gke-playground_us-east1-b_pl-ex3}
+        googleCloudBuild:
+                projectId: yuwenma-gke-playground
   artifacts:
   - image: gcr.io/yuwenma-gke-playground/img
