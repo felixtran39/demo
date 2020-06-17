@@ -5,5 +5,5 @@ metadata:
 build:
         googleCloudBuild:
                 projectId: yuwenma-gke-playground
-         artifacts:
+        artifacts:
                 - image: gcr.io/yuwenma-gke-playground/img
