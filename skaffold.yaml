@@ -3,7 +3,14 @@ kind: Config
 metadata:
         name: skaffold-file
 build:
+        tagPolicy:
+                dateTime: {}
+
         googleCloudBuild:
                 projectId: yuwenma-gke-playground
         artifacts:
                 - image: gcr.io/yuwenma-gke-playground/img
+deploy:
+        kubectl:
+                manifests:
+                        - k8s-*.yaml
